@@ -1,0 +1,18 @@
+// Place all the styles related to the decks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#deck {
+  list-style: none;
+  font-size: 225%;
+  li {
+    background: #e8f2ee;
+    height: 175px;
+    width: 125px;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 175px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+  }
+}
