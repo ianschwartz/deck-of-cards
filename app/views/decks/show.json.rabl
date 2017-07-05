@@ -1,2 +1,2 @@
-collection @deck
-child(:cards) { attributes :rank, :suit, :value, :color }
+collection @cards
+attributes :rank, :suit, :value, :color

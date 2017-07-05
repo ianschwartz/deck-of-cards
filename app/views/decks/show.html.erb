@@ -1,6 +1,6 @@
-<h1>Decks <%= @deck.cards.length %></h1>
+<h1>Decks <%= @cards.length %></h1>
 <ul id='deck'>
-  <% @deck.cards.each do |card| %>
+  <% @cards.each do |card| %>
     <li style='color:<%= card.color %>;'>
 
       <span class='rank'>
