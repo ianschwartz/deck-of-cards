@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+At the moment, all this does is shuffle and serve up playing cards.
 
-Things you may want to cover:
+The cards can be rendered as a webpage or as a JSON api for others to develop on top of. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Demo available online at https://schwartz-deck-of-cards.herokuapp.com

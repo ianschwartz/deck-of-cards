@@ -1,0 +1,41 @@
+
+*** These modified files were found in JOE when it aborted on Wed Jul  5 14:27:46 2017
+*** JOE was aborted by UNIX signal 1
+
+*** File 'README.md'
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test su
+*** File '(Unnamed)'
+DEADJOE
+README.md
+README.md
+README.md
+/home/chrx/weathertown-api/.git/COMMIT_EDITMSG
+README.md
+./config/routes.rb
+./config/routes.rb
+sources.list.d
+Gemfile
+README.md
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

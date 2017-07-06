@@ -89,6 +89,7 @@ GEM
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     oj (3.2.1)
+    pg (0.20.0)
     public_suffix (2.0.5)
     puma (3.9.1)
     rabl (0.13.1)
@@ -179,6 +180,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   oj
+  pg
   puma (~> 3.7)
   rabl
   rails (~> 5.1.1)
