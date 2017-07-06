@@ -3,21 +3,21 @@
 <h3>Shuffled Shoes of Cards</h3>
 <p>These will be displayed on-screen</p>
 <ul>
-  <li><a href='http://localhost:3000/decks/1'>One deck</a></li>
-  <li><a href='http://localhost:3000/decks/2'>Two decks</a></li>
-  <li><a href='http://localhost:3000/decks/3'>Three decks</a></li>
-  <li><a href='http://localhost:3000/decks/4'>Four decks</a></li>
-  <li><a href='http://localhost:3000/decks/5'>Five decks</a></li>
-  <li><a href='http://localhost:3000/decks/6'>Six decks</a></li>
+  <li><%= link_to "One Deck", deck_path(1) %></li>
+  <li><%= link_to "Two Decks", deck_path(2) %></li>
+  <li><%= link_to "Three Decks", deck_path(3) %></li>
+  <li><%= link_to "Four Decks", deck_path(4) %></li>
+  <li><%= link_to "Five Decks", deck_path(5) %></li>
+  <li><%= link_to "Six Decks", deck_path(6) %></li>
 </ul>
 
 <h3>Shuffled Shoes of Cards JSON API</h3>
 <p>The same shuffled decks rendered as JSON</p>
 <ul>
-  <li><a href='http://localhost:3000/decks/1.json'>One deck</a></li>
-  <li><a href='http://localhost:3000/decks/2.json'>Two decks</a></li>
-  <li><a href='http://localhost:3000/decks/3.json'>Three decks</a></li>
-  <li><a href='http://localhost:3000/decks/4.json'>Four decks</a></li>
-  <li><a href='http://localhost:3000/decks/5.json'>Five decks</a></li>
-  <li><a href='http://localhost:3000/decks/6.json'>Six decks</a></li>
+  <li><%= link_to('One Deck', deck_path(1, format: :json)) %> </li>
+  <li><%= link_to('Two Decks', deck_path(2, format: :json)) %> </li>
+  <li><%= link_to('Three Decks', deck_path(3, format: :json)) %> </li>
+  <li><%= link_to('Four Decks', deck_path(4, format: :json)) %> </li>
+  <li><%= link_to('Five Decks', deck_path(5, format: :json)) %> </li>
+  <li><%= link_to('Six Decks', deck_path(6, format: :json)) %> </li>
 </ul>
